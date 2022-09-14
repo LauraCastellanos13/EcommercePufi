@@ -1,15 +1,14 @@
 import "./Home.css";
+import Newsletter from "../Newsletter/Newsletter";
+import PufiRain from "../Pufi-Rain/PufiRain";
+import Navbar from "../Navbar/Navbar";
 
 export const Home = () => {
     return(
         <div className="home">
-        {/* <Navbar />
-        <Pufi-Rain />
-        <Pufi-Puff />
-        <Pufi-Cart />
-        <Pufi-Nap />
-        <Espufi />
-        <Footer /> */}
+        <Navbar />
+        <PufiRain />
+        <Newsletter />
       </div>
     );
 }
