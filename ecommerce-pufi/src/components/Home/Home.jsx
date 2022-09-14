@@ -3,8 +3,14 @@ import "./Home.css";
 export const Home = () => {
     return(
         <div className="home">
-         <h1>Holi</h1>
-        </div>
+        {/* <Navbar />
+        <Pufi-Rain />
+        <Pufi-Puff />
+        <Pufi-Cart />
+        <Pufi-Nap />
+        <Espufi />
+        <Footer /> */}
+      </div>
     );
 }
 export default Home;
