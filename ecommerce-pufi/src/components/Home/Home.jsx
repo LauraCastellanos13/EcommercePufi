@@ -6,6 +6,7 @@ import PufiPuff from "../Pufi-Puff/PufiPuff";
 import PufiCart from "../Pufi-Cart/PufiCart";
 import PufiNap from "../Puffi-Nap/PuffiNap"
 import Espufi from "../Espufi/Espufi";
+import FooterPufi from "../Footer-Pufi/FooterPufi";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
       <PufiNap />
       <Espufi />
       <Newsletter />
+      <FooterPufi />
     </div>
   );
 }

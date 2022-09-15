@@ -14,7 +14,6 @@ const PufiPuff = () => {
                 <p className="paragraph-rain-more"> &gt; VER MÁS</p>
             </div>
             <div className="container-puff-img">
-                <p className="paragraph-shop">SHOP</p>
             </div>
         </div>
     );

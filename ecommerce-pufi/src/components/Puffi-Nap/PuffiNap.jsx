@@ -7,13 +7,12 @@ const PufiNap = () => {
                 <h3>Pufi NAP</h3>
                 <hr className="line-rain" />
                 <p className="paragraph-rain">
-                    Descripción del producto.<br/>
+                    Descripción del producto.<br />
                     Este es un texto simulado
                 </p>
                 <p className="paragraph-rain-more"> &gt; VER MÁS</p>
             </div>
             <div className="container-nap-img">
-                <p className="paragraph-shop">SHOP</p>
             </div>
         </div>
     );

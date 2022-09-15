@@ -1,4 +1,4 @@
-import collage from "../img/collage.jpg";
+import collage from "../img/collage-1.jpg";
 const Espufi = () => {
     return (
         <div className="news">
@@ -11,7 +11,7 @@ const Espufi = () => {
                 <img src={collage} className="collagepufi" alt="collage-puff" />{" "}
             </div>
             <h6 className="title-newsletter">NEWSLETTER</h6>
-            <h1 className="subsc">SUSCRIBETE</h1>
+            <h1 className="subsc">SUSCRIBITE</h1>
             <h6 className="text-news">Y enterate de todas las novedades</h6>
         </div>
 

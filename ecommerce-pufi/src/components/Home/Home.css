@@ -1,6 +1,104 @@
-.sunset-home {
+/* Home */
+.container-principal-home {
+    background-image: url(/src/components/img/sunset.jpg);
+    background-repeat: round;
+    height: 100%;
     width: 100%;
-    height: 80vh;
+}
+
+.container-one-home {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: center;
+    padding: 0.5rem;
+}
+
+.container-two-h {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    list-style-type: none;
+
+}
+
+.container-three-home {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.principal-title {
+    color: #fff;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+}
+
+/* Navbar */
+.logo-pufi {
+    width: 50%;
+}
+
+.point {
+    width: 8%;
+    height: 8%;
+    padding-top: 2rem;
+}
+
+.button-shop {
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 108px;
+    height: 50px;
+    border: solid 2px white;
+}
+
+.button-shop:hover {
+    background-color: white;
+    color: grey;
+    border: solid 2px transparent;
+}
+
+.nav-first-three {
+    display: grid;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-home-puf {
+    width: 100%;
+    border-right: solid 1px #fff;
+    padding-top: 1rem;
+}
+
+.list-home {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    list-style-type: none;
+}
+
+.nav-link-h {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.nav-link-h:hover {
+    color: grey;
+}
+
+.nav-cuenta {
+    padding-right: 0.5rem;
 }
 
 /* Pufi Rain */
@@ -25,7 +123,6 @@
     width: 60px;
     height: 60px;
 }
-
 
 .rain-total {
     font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +164,7 @@
 
 .paragraph-shop:hover {
     background-color: white;
-    color: black;
+    color: grey;
     border: solid 2px transparent;
 }
 
@@ -114,7 +211,7 @@
 }
 
 /* Newsletter */
-.news{
+.news {
     padding-top: 3rem;
     background-color: #fff;
     text-align: center;
@@ -122,11 +219,11 @@
     align-items: center;
 }
 
-.form-newsletter{
+.form-newsletter {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
 }
 
@@ -136,11 +233,82 @@
     padding: 2rem;
 }
 
-.title-newsletter{
+.title-newsletter {
     color: grey;
     font-size: small;
 }
 
-.subsc, .text-news {
+.subsc,
+.text-news {
     font-weight: lighter;
+}
+
+.mail-input {
+    border: 2px grey;
+}
+
+.button-newsletter {
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+
+.mail-box {
+    padding: 0.2rem;
+    width: 40%;
+}
+
+.mail-thanks {
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.mail-thanks:hover {
+    color: grey;
+}
+
+/* Footer */
+
+.footer-pufi {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 71, 71);
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.logo-pufi-black {
+    width: 40%;
+}
+
+.pufi-logos {
+    border-right: solid 1px rgba(128, 128, 128, 0.495);
+}
+
+.contact-footer,
+.shopping-pufi {
+    margin-left: 160px;
+    border-right: solid 1px rgba(128, 128, 128, 0.495);
+}
+
+.follow-us {
+    display: flex;
+    margin-left: 50px;
+}
+
+.paragraph-pufi {
+    margin-left: 5px;
+}
+
+.social-networks-logo {
+    width: 20%;
+    height: 20px;
+    margin: 5px;
 }
