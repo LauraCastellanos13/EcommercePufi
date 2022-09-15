@@ -1,17 +1,17 @@
-import paraguas from "../img/paraguas.png";
+import cart from "../img/bolsas-de-compra.png";
 
-const PufiRain = () => {
+const PufiCart = () => {
     return (
         <div className="container-rain-pufi">
-            <div className="container-rain-img">
+            <div className="container-cart-img">
                 <p className="paragraph-shop">SHOP</p>
             </div>
             <div className="rain-total">
-                <img src={paraguas} className="rain-pufi" alt="pufi-rain" />{" "}
-                <h3>Pufi RAIN</h3>
+                <img src={cart} className="rain-pufi" alt="pufi-rain" />{" "}
+                <h3>Pufi CART</h3>
                 <hr className="line-rain" />
                 <p className="paragraph-rain">
-                    Descripción del producto.<br/>
+                    Descripción del producto. <br/>
                     Este es un texto simulado
                 </p>
                 <p className="paragraph-rain-more"> &gt; VER MÁS</p>
@@ -20,4 +20,4 @@ const PufiRain = () => {
     );
 };
 
-export default PufiRain;
+export default PufiCart;

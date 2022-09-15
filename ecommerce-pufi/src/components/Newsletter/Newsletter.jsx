@@ -6,14 +6,17 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
+    <div className='form-newsletter'>
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
       </label>
+      <div className='mail-input'>
       <input
-        placeholder="Email Address"
+        placeholder="Ingresa tu email"
         id="email"
         type="email" 
         name="email"
+        button=""
       />
       <ValidationError 
         prefix="Email" 
@@ -25,10 +28,12 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
-        Submit
+      </div>
+      <button type="submit" disabled={state.submitting} className="button-newsletter">
+        &gt;
       </button>
     </form>
+    </div>
   );
 }
 function App() {

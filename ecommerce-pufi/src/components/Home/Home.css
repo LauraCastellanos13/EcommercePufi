@@ -1,67 +1,146 @@
-.sunset-home{
-    
+.sunset-home {
     width: 100%;
     height: 80vh;
 }
 
 /* Pufi Rain */
-
 .container-rain-pufi {
-    display: flex;
-  }
-  .container-rain-img {
-    width: 50%;
-    height: 85vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-rain-img {
     background-image: url(/src/components/img/rain.jpg);
-  }
-  .rain-pufi {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2;
+    width: 100%;
+}
+
+.rain-pufi {
     width: 60px;
     height: 60px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .rain-total {
+}
+
+
+.rain-total {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 140px;
-    margin-left: 250px;
-  }
-  
-  .line-rain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.line-rain {
     width: 30px;
-    margin-left: 60px;
-  }
-  
-  .paragraph-rain {
+}
+
+.paragraph-rain {
     color: black;
     font-size: 13px;
-  }
-  .paragraph-rain-more {
+    text-align: justify;
+}
+
+.paragraph-rain-more {
     font-family: monospace;
-  }
-  
-  .paragraph-shop {
-    width: 108px;
-    height: 50px;
-    border: solid 2px white;
-    justify-items: center;
-    text-align: center;
-    margin: 250px auto auto auto;
-    padding-top: 15px;
-    color: white;
+}
+
+/* Button with hover*/
+.paragraph-shop {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
-  }
-  
-  .paragraph-shop:hover{
+    justify-items: center;
+    text-align: center;
+    width: 108px;
+    height: 50px;
+    border: solid 2px white;
+    padding-top: 15px;
+    color: white;
+}
+
+.paragraph-shop:hover {
     background-color: white;
-    color:black;
+    color: black;
     border: solid 2px transparent;
-  }
+}
+
+/* Pufi Puff */
+.container-puff-pufi {
+    display: flex;
+}
+
+.container-puff-img {
+    background-image: url(/src/components/img/water-gd073d0492_640.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2;
+    width: 100%;
+}
+
+/* Pufi Cart */
+.container-cart-img {
+    background-image: url(/src/components/img/christmas-market-gcf03a4eda_640.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2;
+    width: 100%;
+}
+
+/* Pufi Nap */
+.container-nap-img {
+    background-image: url(/src/components/img/sleepingg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2;
+    width: 100%;
+}
 
 /* Newsletter */
-.ContactForm{
+.news{
+    padding-top: 3rem;
     background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
+.form-newsletter{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.collagepufi {
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
+}
+
+.title-newsletter{
+    color: grey;
+    font-size: small;
+}
+
+.subsc, .text-news {
+    font-weight: lighter;
 }
