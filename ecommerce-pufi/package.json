@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "github.com:LauraCastellanos13/EcommercePufi.git",
+  "homepage": "https://LauraCastellanos13.github.io/EcommercePufi/build",
   "dependencies": {
     "@formspree/react": "^2.4.0",
     "@testing-library/jest-dom": "^5.16.5",
