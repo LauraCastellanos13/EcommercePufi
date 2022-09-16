@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98a990fd.css",
+    "main.js": "/static/js/main.90cae118.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/collage-1.jpg": "/static/media/collage-1.8f09d9114f5063d8f547.jpg",
+    "static/media/sunset.jpg": "/static/media/sunset.d63e23564a88f5e74cc8.jpg",
+    "static/media/water-gd073d0492_640.jpg": "/static/media/water-gd073d0492_640.c92eeb308a6d3ee37fb3.jpg",
+    "static/media/rain.jpg": "/static/media/rain.6ef71a62ef39deeac71f.jpg",
+    "static/media/qr.png": "/static/media/qr.6a7c8282439e62995b66.png",
+    "static/media/christmas-market-gcf03a4eda_640.jpg": "/static/media/christmas-market-gcf03a4eda_640.49e81deed5cd7b74e144.jpg",
+    "static/media/sleepingg.jpg": "/static/media/sleepingg.9bb6c2e9d4438070a909.jpg",
+    "static/media/sleep.png": "/static/media/sleep.956bbbfc991f0f40ccd7.png",
+    "static/media/paraguas.png": "/static/media/paraguas.d9f2fed328bbc985f7ac.png",
+    "static/media/puff.png": "/static/media/puff.c8e637d1c8290cf87c98.png",
+    "static/media/umbrella-nav.png": "/static/media/umbrella-nav.7dbcd614c31af84d03bb.png",
+    "static/media/instagram.png": "/static/media/instagram.9836f120000f0e2b6e3c.png",
+    "static/media/cart-nav.png": "/static/media/cart-nav.83d916e306253f5998f3.png",
+    "static/media/PUFI-black.png": "/static/media/PUFI-black.73d0ed0237a8b76e89cc.png",
+    "static/media/PUFI-logo.png": "/static/media/PUFI-logo.aeb53a437377523af662.png",
+    "static/media/pago-seguro.png": "/static/media/pago-seguro.bfe3332237cfbf4adc9e.png",
+    "static/media/gorjeo.png": "/static/media/gorjeo.8e65601e69067aadfe55.png",
+    "static/media/puff__nav.png": "/static/media/puff__nav.2107cc12d338363c89b2.png",
+    "static/media/bolsas-de-compra.png": "/static/media/bolsas-de-compra.bfee5d8c530e8adf62c0.png",
+    "static/media/nap-nav.png": "/static/media/nap-nav.643c2cd70fde22d1f5db.png",
+    "index.html": "/index.html",
+    "main.98a990fd.css.map": "/static/css/main.98a990fd.css.map",
+    "main.90cae118.js.map": "/static/js/main.90cae118.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98a990fd.css",
+    "static/js/main.90cae118.js"
+  ]
+}
